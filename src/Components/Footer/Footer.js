@@ -1,3 +1,5 @@
+import '../Footer/Footer'
+
 function Footer(props){
     return(
 <>
