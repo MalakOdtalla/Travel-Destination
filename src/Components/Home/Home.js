@@ -9,6 +9,7 @@ function Home(){
 return(
 <>
 <Header/>
+
 {Data.map(element =>{
     return(
 <Tours    name={element.name}  img={element.image}/>
