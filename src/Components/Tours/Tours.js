@@ -1,21 +1,23 @@
-import {Link} from "react-router-dom";
+import './Tours.css'
+
 
 
 function Tours(props){
 return(
-<div>
 
+<>
+<div  class="responsive" >
+<div class="gallery" >
 
-<p>
-    {props.name}
-</p>
-<img src={props.img}/>
+<img src={props.img}/> 
+
+<div class="desc">{props.name}</div>
+  </div>
 </div>
-
+<div class="clearfix"></div>
+</>
 
 
 );
-
-
 }
 export default Tours;

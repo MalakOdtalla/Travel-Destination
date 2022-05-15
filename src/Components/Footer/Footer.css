@@ -1,6 +1,24 @@
 p {
   
 
-    font-family: Arial;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+  }
+
+  .fa {
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+    
+  }
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* linkein */
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
   }
