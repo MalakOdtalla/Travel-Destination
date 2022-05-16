@@ -7,13 +7,6 @@ return(
 
 <>
 
-{/* <div class="gallery" >
-
-<img src={props.img}/> 
-
-<div class="desc">{props.name}</div>
-  </div> */}
-
   <Tour/>
 
 </>
