@@ -11,12 +11,12 @@ function TourDetails() {
     return (
       
    <> 
-<div >
-{/*     key={result[0].id}*/}   
+<div     key={result[0].id}   >
  <img src={result[0].image} alt={result[0].name}/>
     <ul>
         <li>Name:{result[0].name}</li>
         <li>Price:{result[0].price}</li>
+        <li>Info:{result[0].info}</li>
 
     </ul>
 

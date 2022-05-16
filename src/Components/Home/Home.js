@@ -16,18 +16,7 @@ function Home(){
 return(
 <>
 <Header/>
-
-{Data.map(city =>{
-    return(
-        <Link to={`/city.id/${city.id}`}  key={city.id}>
-
-        <div>
-        <Tour name={city.name}  img={city.image}/>
-
-        </div>
-        </Link>
-    )
-})}
+<Tour data={Data}/>
 
 <Footer/>
 
