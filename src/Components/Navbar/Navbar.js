@@ -8,8 +8,9 @@ function Navbar() {
    <>
    
         
-   <nav><Link to="/">Home</Link>
+   <nav>
    <h3>Welcome into Travel Page</h3>
+   <Link to="/">Home</Link>
    </nav>
     </>
     );
