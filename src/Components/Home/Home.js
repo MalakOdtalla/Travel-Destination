@@ -16,6 +16,7 @@ function Home(){
 return(
 <>
 <Header/>
+
 <Tour data={Data}/>
 
 <Footer/>

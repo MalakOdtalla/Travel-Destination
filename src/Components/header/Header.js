@@ -4,8 +4,8 @@ function Header(props){
     return (
 <>
 
-<h1>Travel Destination</h1>
 
+<h3>Welcome into Travel Page</h3>
 
     </>
     );

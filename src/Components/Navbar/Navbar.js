@@ -9,7 +9,7 @@ function Navbar() {
    
         
    <nav>
-   <h3>Welcome into Travel Page</h3>
+   <h1>Travel Destination</h1>
    <Link to="/">Home</Link>
    </nav>
     </>
